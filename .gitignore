@@ -1,0 +1,10 @@
+# FreeCAD backups
+*.FCBak
+*.FCStd1
+# slicer output
+*.gcode
+*.gcode.3mf
+# OS junk
+.DS_Store
+Thumbs.db
+__pycache__/
