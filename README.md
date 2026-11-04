@@ -4,7 +4,7 @@ This is the [Modular 10"/10 inch Rack](https://www.printables.com/model/1170708-
 
 ![Rack assembled in FreeCAD](images/assembly.png)
 
-## What to print
+## For a base Macmini 2012 setup (
 
 | File (`plates/`) | Print | Parts |
 |---|---|---|
