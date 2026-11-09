@@ -53,16 +53,17 @@ A **modular** NAS: one base plus 4 bolt-on **sockets**, so a prototype costs one
 
 | File (`stl/nas/`) | Print | Time |
 |---|---|---|
-| `nas-base-left.stl` | 1× | 1 h 57 min |
+| `nas-base-left.stl` | 1× | 1 h 55 min |
 | `nas-base-right.stl` | 1× | 1 h 42 min |
-| `nas-socket-left.stl` | 2× | 2 h 09 min |
-| `nas-socket-right.stl` | 2× | 2 h 09 min |
+| `nas-socket-left.stl` | 2× | 2 h 05 min |
+| `nas-socket-right.stl` | 2× | 2 h 03 min |
 | `ReadyToPrint/hdd-handle-landing-2.0mm-x4.stl` | 1× | 58 min |
-| `nas-socket-fit-test.stl` *(optional: the back of one socket, to check the adapter fit first)* | 1× | 1 h 17 min |
+| `nas-socket-fit-test.stl` *(optional: the back of one socket, to check the adapter fit first)* | 1× | 1 h 12 min |
+| `nas-adapter-holder-test.stl` *(optional: only the adapter holder, fastest test)* | 1× | 25 min |
 
 **How it works**
 - **Drive slot:** the drive runs between a bottom rail and a 45° top rail, with 0.3 mm of play above and below. There are lead-ins at the front, and the walls have teardrop holes for airflow.
-- **Adapter:** head 47 × 12 mm, body 41 mm long when plugged in. It sits in a tight pocket. A low front lip stops it coming out with the drive, a back stop takes the push, and a zip tie holds it down.
+- **Adapter:** head 47 × 12 mm, in a 35.5 mm long bay (tuned on test prints). Press it down into a tight pocket: two flexible **snap walls** beside its front part click over its top edges, so it can't tip up when a drive is pulled out. A 1.6 mm front lip then stops it coming forward, and a back stop takes the push. To remove the adapter, bend the snap walls outward. Zip-tie slots beside the adapter are there as an optional backup.
   - The adapter sits 4.5 mm right of the drive's centre (seen from the front), and the drive sits 2 mm higher than the adapter.
 - **Handle:** clips onto the drive's front side screw holes with two pins (no screws). Two teeth hook over the drive's top edge so the drive stays level when you carry it.
   - Three handle versions are in `stl/nas/`: `hdd-handle-landing-1.5mm` / `2.0mm` / `2.5mm`. They differ only in how far the teeth reach over the drive.
@@ -71,7 +72,7 @@ A **modular** NAS: one base plus 4 bolt-on **sockets**, so a prototype costs one
 - **Base to the rack:** 4× M6 × 12 button-head screws with M6 square nuts. **Between the two base halves:** 2× M4 × 10 countersunk screws with 2× M4 nuts.
 - **Sockets to the base:** M3 countersunk screws from under the base, with M3 nuts in the pocket on top of each bolt column, 2 per stack.
   - One socket: **M3 × 20**. Two stacked sockets: **M3 × 35**.
-- **Adapters:** zip ties ≤ 3 mm wide. A lower socket uses slot rows 1 and 3, an upper socket rows 2 and 4.
+- **Adapters:** no screws, no clips: the snap walls are part of the socket. Optional backup: zip ties ≤ 3 mm wide, rows 1 + 3 for a lower socket, 2 + 4 for an upper one.
 
 ## 4. Control layer (U4)
 
