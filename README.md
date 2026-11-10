@@ -48,16 +48,20 @@ The rack is built in layers:
 
 4 drive slots. Each 7 mm 2.5" drive slides in from the front and plugs into a SATA-USB adapter at the back. The adapter snaps into place. A clip-on handle lets you pull the drive out.
 
+A USB hub (76 × 41 × 21 mm, ports on a long side) sits on a mount right behind the drive slots, with its ports facing back. The drive cables (13 cm) reach it, and you can connect the hub's input to whatever you like.
+
 | Print (`ReadyToPrint/nas/`) | How many | Time |
 |---|---|---|
 | `nas-base-left.3mf` | 1× | 1 h 55 min |
 | `nas-base-right.3mf` | 1× | 1 h 42 min |
 | `nas-sockets-left-right.3mf` | 2× | 4 h 07 min |
 | `nas-hdd-handles-x4.3mf` | 1× | 58 min |
+| `nas-hub-mount.3mf` | 1× | 43 min |
 
 **Screws:**
 - Base: M6 × 12 button-head screws with M6 square nuts, plus 2× M4 × 10 countersunk screws with M4 nuts.
-- Sockets: M3 countersunk screws with M3 nuts: M3 × 20 for one socket, M3 × 35 for two stacked.
+- Sockets: M3 countersunk screws with M3 nuts: M3 × 20 for one socket, M3 × 35 for two stacked. With the hub mount, the 2 rear screws also go through its tongue: use M3 × 40 there.
+- Hub: 2 zip ties.
 
 **Test first (optional):** `nas-test-adapter-holder.3mf` (25 min) checks that your adapter fits.
 
