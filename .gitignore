@@ -8,3 +8,5 @@
 .DS_Store
 Thumbs.db
 __pycache__/
+# Bambu Studio projects saved next to single parts (print plates live in print/)
+stl/**/*.3mf
